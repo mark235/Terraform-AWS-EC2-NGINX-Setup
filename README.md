@@ -71,6 +71,8 @@ http://<instance_public_ip>
 
 You should see a "Hello World" page served by NGINX.
 
+[![Architecture Diagram](results.png)](results.png)
+
 ### 6. Clean Up Resources
 
 To remove all resources created by Terraform, run:
