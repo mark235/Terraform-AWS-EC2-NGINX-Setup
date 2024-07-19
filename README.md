@@ -6,6 +6,17 @@ Provision an EC2 instance on AWS using Terraform, install NGINX, and configure t
 
 [![Architecture Diagram](terraform.png)](terraform.png)
 
+## Table of Contents
+
+1.  [Prerequisites](#prerequisites)
+2.  [Steps](#steps)
+    *   [Prepare Terraform Configuration](#prepare-terraform-configuration)
+    *   [Initialize Terraform](#initialize-terraform)
+    *   [Review the Execution Plan](#review-the-execution-plan)
+    *   [Apply the Configuration](#apply-the-configuration)
+    *   [Access the NGINX Web Server](#Access-the-NGINX-web-server)
+    *   [Clean Up Resources](#clean-up-resources)
+
 ## Prerequisites
 
 1. **Terraform**: Install Terraform on your local machine or development environment. Follow the installation guide at [Terraform Installation](https://www.terraform.io/downloads.html).
